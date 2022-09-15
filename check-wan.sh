@@ -10,7 +10,7 @@ do
         if [ "$wan_status" == "down" ]
         then
                 echo "WAN PORT  DOWN!"
-                #echo 0 > /sys/class/leds/pca963x:shelby:white:wan/brightness
+                ##echo 0 > /sys/class/leds/pca963x:shelby:white:wan/brightness
                 echo 0 > /sys/class/leds/blue:internet/brightness
                 #echo 0 > /sys/class/leds/pca963x:shelby:amber:wan/brightness
                 echo 0 > /sys/class/leds/red:internet/brightness
